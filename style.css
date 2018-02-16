@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+header{
+    height: 100vh;
+    background-color: #BBE4DC;    
+    position: relative;
+    overflow-x: hidden;
+}
+
+main{
+    height: 100vh;
+    background-color: grey;    
+}
+
+header img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 70%;
+    right: -45%;
+}
+
+header nav{
+    position: absolute;
+    right: 7%;
+    top: 4%;
+    font-size: 8rem;
+}
